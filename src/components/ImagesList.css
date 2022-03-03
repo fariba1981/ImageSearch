@@ -1,0 +1,27 @@
+.result-count-container {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    font: 14px;
+    line-height: 100%;
+}
+
+.image-list {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: 5px;
+    gap: 5px;
+}
+
+.image-list .image-card {
+    margin-bottom: 7px;
+}
+
+.image-list .image-card img {
+    width: 100%;
+
+}
